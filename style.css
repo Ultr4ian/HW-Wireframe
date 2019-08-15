@@ -52,15 +52,19 @@
       box-align: auto}
 #aside {background-color: #ebebeb;
       color: #777;
-      width: 495px;
+      width: 480px;
       height: 350px;
       margin: 20px;
       padding: 30px;
       text-align: center;
       float: right}
-#footer {position: bottom;
+
+#footer { position: absolute;
+      bottom: 0; 
+      background-color: #ebebeb;
+      color: #777;
       width: 90%;
-      height: 75%;
+      height: 10px;
       text-align: center;
       padding: 50px;
       margin: 20px;}
